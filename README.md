@@ -9,7 +9,9 @@ features = ["bundled"]
 ```
 This adds rusqlite as a dependency that will be installed the next time you attempt to build. features = [“bundled”] tells the package to compile SQLite . 
 
+Run program and type \help to list all commands
 ```bash
 cargo run -q
+
 \help
 ```
